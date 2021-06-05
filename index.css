@@ -12,7 +12,13 @@
   .content-container {
     padding-top: 20px;
   }
-  
+  .withOverlayImage{
+    background-image: url(./images/bg2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
   .sidebar-logo {
     padding: 10px 15px 10px 30px;
     font-size: 20px;
