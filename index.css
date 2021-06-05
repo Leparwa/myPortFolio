@@ -99,3 +99,69 @@
       background-size: cover; */
 
   }
+  * {
+      box-sizing: border-box;
+  }
+  
+  ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+  }
+  
+  ul li div {
+      width: 50%;
+      float: left;
+      text-align: center;
+  }
+  
+  ul li .zero-left {
+      position: relative;
+      color: #EB908B;
+      width: 30%;
+      text-align: right;
+      padding-right: 20px;
+  }
+  
+  ul li .zero-right {
+      border-left: 3px solid #3C4C4C;
+      position: relative;
+      color: #3C4C4C;
+      width: 70%;
+      padding-left: 15px;
+      text-align: left;
+  }
+  
+  ul li .first {
+      position: relative;
+      color: #EB908B;
+      width: 30%;
+      text-align: right;
+      padding-right: 20px;
+  }
+  
+  ul li .second {
+      border-left: 3px solid #3C4C4C;
+      position: relative;
+      width: 70%;
+      padding-left: 15px;
+      text-align: left;
+  }
+  
+  ul li .second p {
+      color: #EB908B;
+      position: relative;
+      text-align: left;
+  }
+  
+  ul li .first::before {
+      content: '';
+      position: absolute;
+      right: -11.5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 150%;
+      border: 2px solid #3C4C4C;
+      background: #3C4C4C;
+      z-index:9999
+  }
